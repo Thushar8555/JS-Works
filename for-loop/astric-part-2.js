@@ -1,0 +1,14 @@
+var pattern = ""
+for(let r=1;r<=4;r++){
+    let pattern=""
+    for(let c=1;c<=4;c++){
+        if(r==c){
+            pattern+="1 \t"
+        }
+        else{
+            pattern+="0 \t"
+        }
+    }
+    console.log(pattern);
+    
+}
